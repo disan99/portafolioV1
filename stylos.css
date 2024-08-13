@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;margin: 0%;padding: 0%; list-style: none; text-decoration: none; border: none; outline: none;}
+    
+.contenedor{
+  background-color: #1f242d;
+
+}
+
+
+@media (max-width: 576px)
+    {
+    .ocultarboton{
+        display: none;
+    }
+    }
+
+  a:hover{
+    color:#7FFFD4;
+    animation-duration: 0.5s;
+    scale: 120%;
+  }
+.caja1{ 
+    height: 80px;
+    padding: 0%;
+    margin: 0%;
+ 
+
+}
+.cara{
+  animation-name: derecha;
+}
+
+    
+  .list1{
+    display: inline;
+    float: inline-start;
+    color: rgb(255, 255, 255);
+    animation-name: derecha;
+  }
+
+  @media (max-width: 768px) {
+    .h4 {
+      display: inline;
+      float: inline-start;
+      color: rgb(255, 255, 255);
+      animation-name: derecha;
+      font-size: medium;
+    }
+  }
+
+.list2{
+  display: inline;
+  float: inline-start;
+  color: rgb(255, 249, 249);
+  animation-name: derecha;
+  
+
+}
+
+a:link{
+  text-decoration: none;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 1rem;
+  color: #ffffff;
+  float: left;
+  padding: 0%;
+
+}
+
+
+  .caja2{
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+    margin: auto;
+    animation-name: derecha;
+    animation-duration: 1s;
+  }
+  @keyframes derecha {
+    0%{
+      transform: translateX(-100px);
+      opacity: 0%;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+
+    }
+  }
+
+  @media (max-width: 992px) {
+    .caja2 {
+     margin-bottom: 2%;
+    }
+  }
+
+  @keyframes arriba {
+    0%{
+      transform: translateY(-100px);
+      opacity: 0%;
+    }
+    100%{
+      transform: translateY(0);
+      opacity: 1;
+
+    }
+  }
+  .caja3{
+    background-color:  rgb(22, 19, 60);
+    height: 10px;    
+  
+  }
+  .caja4{
+    height: 500px;
+    background-image: url(ciudad\ fea.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+  }
+  .caja5{
+    background-color:#7FFFD4;
+    height: 60px;
+    background-image: url(IMAGENES/Recurso\ 3.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .caja6{
+
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px; padding-top: 5%;
+    text-align: center;
+    animation-name: arriba;
+    animation-duration: 1s;
+    background-image: url(IMAGENES/puntos.png);
+    background-size: 100%;
+
+
+  }
+
+  .caja7{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    align-content: center;
+    font-size: 1.5rem;
+    background-image: url(IMAGENES/portada.png);     background-position: center;    background-size: 50%; background-repeat: no-repeat;
+    animation-name: derecha;
+    animation-duration: 1s;
+  }
+
+  @media (max-width: 768px) {
+    .caja7 {
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+  article{
+    color: #ffffff;
+  }
+  .caja8{
+    
+    height: 60px;
+    font-size: 1.6;
+    margin: auto;
+    padding-left: 50%;
+    animation-name: derecha;
+    animation-duration: 1s;
+ 
+  }
+  .caja9{
+    
+    height: 100px;
+    font-size: 1.6;
+    margin: auto;
+    padding-left: 50%;
+ 
+  }
+
+  /* galeria */
+
+  .caja10{
+    height: 60px;
+    font-size: 1.6rem;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: aquamarine;
+    animation-name: derecha;
+    animation-duration: 1s; 
+    background-image: url(IMAGENES/Recurso\ 3.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .caja10v2{
+    height: 40px; width: 1800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: aquamarine;
+    animation-name: derecha;
+    animation-duration: 1s; 
+    background-image: url(IMAGENES/Recurso\ 3.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+ 
+
+  .caja11{
+
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px; margin: auto;
+    align-content: center;
+    text-align: center;
+    transition: 1s;
+    font-size: 1.5rem;
+    animation-name: arriba;
+    animation-duration: 1s;
+
+  }
+  .caja11:hover{
+
+    scale: 150%;
+
+  }
+
+
+  .imagen1{
+    width: 80%;
+  }
+  
+  .imagen2{
+    width:70%;
+  }
+  
+  .imagen3{
+    width: 80%;
+  }
+  
+  .imagen4{
+  width: 100%;
+  
+  }
+    .imagen5{
+    width: 100%;
+  }
+ 
+  .fondogaleria{
+    background: url(IMAGENES/lapiz.png);
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: derecha;
+    animation-duration: 1s; 
+  }
+  /* blog */
+
+  .rowfondotexto{
+background-image: url(IMAGENES/Blender_logo_no_text.svg.png);
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation-name: derecha;
+  animation-duration: 1s; 
+  }
+
+  .caja12{
+
+    height: 100svh;
+    margin-top: 50px;
+    align-content: center;
+    text-align: left; 
+    margin: auto;
+    font-size: 2rem;
+    animation-name: arriba;
+    animation-duration: 1s;
+
+  }
+  .caja12v2{
+
+    height: 100svh;
+    margin-top: 50px;
+    align-content: center;
+    text-align: left; 
+    margin: auto;
+    font-size: 2rem;
+    animation-name: arriba;
+    animation-duration: 1s;
+    background-image: url(IMAGENES/399951.png);
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  @media (max-width: 768px) {
+    .caja12 {
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+ /* contacto */
+
+ .caja13{
+  justify-content: center;
+  text-align: end;
+ }
+ .caja14{
+  padding-top: 8%;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  font-size: 8rem;
+ }
+ @media (max-width: 768px) {
+  .caja14 {
+    height: auto;
+      justify-content: center;
+      text-align: center;
+      
+  }
+}
+ .wasa{
+  width: 70%;
+ }
+
+ @media (max-width: 768px) {
+  .caja13 {
+      justify-content: center;
+      text-align: center;
+      font-size: 4rem; 
+  }
+}
+
+.cajaanimada{
+  width: 70%; height: 70%;
+  background-color: #7FFFD4;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding-right: 50%;
+  
+}
